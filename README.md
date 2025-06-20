@@ -1,11 +1,16 @@
-### 📊 **Flask Metrics App with Prometheus & Grafana on Minikube**
+````markdown
+# 🚀 Flask Metrics App with Prometheus & Grafana on Minikube
 
-This project demonstrates how to:
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+</p>
 
-* Build a metrics-enabled Flask app
-* Containerize and deploy it to a local Kubernetes (Minikube) cluster
-* Monitor the app using Prometheus
-* Visualize metrics with Grafana
+> ⚙️ Full observability pipeline using a custom Flask app, containerized with Docker, deployed via Kubernetes, monitored by Prometheus, and visualized in Grafana.
 
 ---
 
@@ -27,7 +32,7 @@ This project demonstrates how to:
 ```bash
 pip install -r requirements.txt
 python app.py
-```
+````
 
 Verify on: [http://localhost:5000](http://localhost:5000)
 
@@ -222,7 +227,6 @@ Default username: `admin`
 ![Flask Metrics](screenshots/metrics.png.png)
 *Figure: Custom `/metrics` endpoint in Flask showing Prometheus metrics*
 
-
 ### 📊 Grafana Dashboard
 
 ![Grafana Dashboard](screenshots/garfana_dashboard.png.png)
@@ -250,7 +254,7 @@ Default username: `admin`
 ├── flask-app.yaml
 ├── screenshots/
 │   ├── metrics.png
-│   └── grafana_dashboard.png
+│   └── garfana_dashboard.png
 └── README.md
 ```
 
