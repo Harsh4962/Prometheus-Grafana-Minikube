@@ -1,4 +1,3 @@
-````markdown
 # 🚀 Flask Metrics App with Prometheus & Grafana on Minikube
 
 <p align="center">
