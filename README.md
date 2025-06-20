@@ -225,7 +225,7 @@ Default username: `admin`
 
 ### 📊 Grafana Dashboard
 
-![Grafana Dashboard](screenshots/grafana_dashboard.png.png)
+![Grafana Dashboard](screenshots/garfana_dashboard.png.png)
 *Figure: Real-time dashboard showing API metrics from the Flask app*
 
 ---
