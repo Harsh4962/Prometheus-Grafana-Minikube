@@ -219,13 +219,13 @@ Default username: `admin`
 
 ### 🧪 Flask App Exposing Metrics
 
-![Flask Metrics](screenshots/metrics.png)
+![Flask Metrics](screenshots/metrics.png.png)
 *Figure: Custom `/metrics` endpoint in Flask showing Prometheus metrics*
 
 
 ### 📊 Grafana Dashboard
 
-![Grafana Dashboard](screenshots/grafana_dashboard.png)
+![Grafana Dashboard](screenshots/grafana_dashboard.png.png)
 *Figure: Real-time dashboard showing API metrics from the Flask app*
 
 ---
